@@ -1,7 +1,7 @@
 # Message authentication code (MAC)
 - นายศุภชัย แก้วละมุล
 - นายสิทธิเดช เลิศลัคนา
-[NATEX](https://tuagonjai.github.io/messagemac)
+[NATEX](https://tuagonjai.github.io/message-authentication-code)
 
 ## -CISSP Glossary
  - A small block of data that is generated using a secret key and then appended to the message, used to address integrity.
