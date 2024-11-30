@@ -12,4 +12,4 @@
      - Blender 3D
 ![Emkub](img/EM_studet.jpg)
 
-[Next to " MAC" ](https://Emku.github.io/message-authentication-code)
+[Next to " MAC" ](https://Emkub.github.io/message-authentication-code)
