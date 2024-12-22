@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy New Year</title>
+    <style>
+        body {
+            background-color: #111;
+            color: #ffccff;
+            font-family: Arial, sans-serif;
+            text-align: center;
+            padding: 20px;
+        }
+
+        h1 {
+            color: #ff66b2;
+        }
+
+        button {
+            background-color: #ff66b2;
+            color: #fff;
+            border: none;
+            padding: 15px 30px;
+            font-size: 20px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #ff3385;
+        }
+
+        .message {
+            margin-top: 30px;
+            font-size: 24px;
+            font-weight: bold;
+        }
+
+        .translation {
+            margin-top: 10px;
+            font-size: 20px;
+            color: #ff99cc;
+        }
+    </style>
+    <script>
+        function showGreeting() {
+            const greetings = [
+                { en: "Wishing you a year full of happiness and success!", th: "ขอให้ปีนี้เต็มไปด้วยความสุขและความสำเร็จ!" },
+                { en: "May this year bring new happiness, new goals, and endless inspiration!", th: "ขอให้ปีนี้นำพาความสุขใหม่ เป้าหมายใหม่ และแรงบันดาลใจไม่มีที่สิ้นสุด!" },
+                { en: "Cheers to health, happiness, and prosperity in the New Year!", th: "ขอให้มีสุขภาพแข็งแรง ความสุข และความมั่งคั่งในปีใหม่!" },
+                { en: "Hope the New Year fills your life with love and laughter!", th: "หวังว่าปีใหม่จะเติมเต็มชีวิตคุณด้วยความรักและเสียงหัวเราะ!" },
+                { en: "Here’s to another year of making memories together!", th: "นี่คืออีกปีหนึ่งของการสร้างความทรงจำร่วมกัน!" },
+                { en: "May the New Year bless you with health, wealth, and happiness!", th: "ขอให้ปีใหม่อวยพรให้คุณมีสุขภาพดี ร่ำรวย และมีความสุข!" },
+                { en: "Wishing you peace, love, and laughter in the New Year!", th: "ขอให้ปีใหม่เต็มไปด้วยความสงบ ความรัก และเสียงหัวเราะ!" },
+                { en: "May all your dreams come true in the New Year!", th: "ขอให้ความฝันทั้งหมดของคุณเป็นจริงในปีใหม่!" },
+                { en: "Let’s make this New Year unforgettable!", th: "มาทำให้ปีใหม่นี้เป็นปีที่น่าจดจำกันเถอะ!" },
+                { en: "Wishing you endless joy and success in the coming year!", th: "ขอให้คุณมีความสุขและความสำเร็จไม่รู้จบในปีที่กำลังจะมาถึง!" },
+                { en: "May your New Year be filled with hope and positivity!", th: "ขอให้ปีใหม่ของคุณเต็มไปด้วยความหวังและพลังบวก!" },
+                { en: "Let’s welcome the New Year with open hearts and big dreams!", th: "มารับปีใหม่ด้วยใจเปิดและความฝันอันยิ่งใหญ่กันเถอะ!" },
+                { en: "Hope this year is your best one yet!", th: "หวังว่าปีนี้จะเป็นปีที่ดีที่สุดของคุณ!" },
+                { en: "Here’s to another year of achieving great things!", th: "นี่คืออีกปีของการประสบความสำเร็จที่ยิ่งใหญ่!" },
+                { en: "May your year be as amazing as you are!", th: "ขอให้ปีของคุณน่าทึ่งเหมือนตัวคุณ!" },
+                { en: "Sending you warm wishes for a bright New Year!", th: "ส่งคำอวยพรอันอบอุ่นสำหรับปีใหม่ที่สดใส!" },
+                { en: "Let this New Year be a fresh start to chase your dreams!", th: "ให้ปีใหม่นี้เป็นการเริ่มต้นใหม่ในการตามหาฝันของคุณ!" },
+                { en: "Wishing you a year filled with endless blessings!", th: "ขอให้ปีนี้เต็มไปด้วยพรอันไม่มีที่สิ้นสุด!" },
+                { en: "Here’s to a year of good health, good luck, and happiness!", th: "นี่คือปีแห่งสุขภาพที่ดี โชคดี และความสุข!" },
+                { en: "May your days be as wonderful as your smile this year!", th: "ขอให้ทุกวันของคุณในปีนี้น่าประทับใจเหมือนรอยยิ้มของคุณ!" }
+            ];
+
+            const randomGreeting = greetings[Math.floor(Math.random() * greetings.length)];
+            const messageDiv = document.getElementById('message');
+            const translationDiv = document.getElementById('translation');
+
+            messageDiv.innerText = randomGreeting.en;
+            translationDiv.innerText = randomGreeting.th;
+
+            // Animation effect
+            messageDiv.style.opacity = '0';
+            translationDiv.style.opacity = '0';
+            setTimeout(() => {
+                messageDiv.style.opacity = '1';
+                translationDiv.style.opacity = '1';
+            }, 100);
+        }
+    </script>
+</head>
+<body>
+    <h1>Happy New Year!</h1>
+    <button onclick="showGreeting()">Happy New Year</button>
+    <div id="message" class="message"></div>
+    <div id="translation" class="translation"></div>
+</body>
+</html>
