@@ -9,8 +9,16 @@
             background-color: #111;
             color: #ffccff;
             font-family: Arial, sans-serif;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
             text-align: center;
-            padding: 20px;
+        }
+
+        .container {
+            max-width: 90%;
         }
 
         h1 {
@@ -86,9 +94,11 @@
     </script>
 </head>
 <body>
-    <h1>Happy New Year!</h1>
-    <button onclick="showGreeting()">Happy New Year</button>
-    <div id="message" class="message"></div>
-    <div id="translation" class="translation"></div>
+    <div class="container">
+        <h1>Happy New Year!</h1>
+        <button onclick="showGreeting()">Happy New Year</button>
+        <div id="message" class="message"></div>
+        <div id="translation" class="translation"></div>
+    </div>
 </body>
 </html>
