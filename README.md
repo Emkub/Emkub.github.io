@@ -15,4 +15,4 @@
 
 [Next to " MAC" ](https://Emkub.github.io/message-authentication-code)
 
-[![Christmas Button](https://example.com/christmas-button.png)](https://Emkub.github.io/img/e-xmascard.png)
+[![Christmas Button](img/christmas-button.png)](https://Emkub.github.io/img/e-xmascard.png)
