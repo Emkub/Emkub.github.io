@@ -5,8 +5,7 @@
 ["Ai vision"](https://Emkub.github.io/project/AI.ipynb)
 - Tableau Dashboard & story
 ["dashboard"](https://Emkub.github.io/project/มูลค่าการนำเข้าของวิสาหกิจ.pdf)
-
-["story"](https://Emkub.github.io/project/แนวโน้มการนำเข้า .pdf)
+["story"](https://Emkub.github.io/project/แนวโน้มการนำเข้า.pdf)
 - (SA) Pay Tax  webdemo
 ["draw.io"](https://Emkub.github.io/project/SA1.drawio.pdf)
 
