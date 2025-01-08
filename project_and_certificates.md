@@ -1,4 +1,4 @@
-# โปรเจกต์
+# project
 
 1. **Linked List (Double Circular Queue)**  
    [DCQ](https://Emkub.github.io/project/Double-Circular-Queue-1.pdf)
@@ -15,7 +15,7 @@
 
 ---
 
-# ใบรับรอง
+# certificates
 
 1. **ใบรับรองการออกแบบเว็บไซต์ด้วย Figma**  
    [Figma.io](https://Emkub.github.io/project/Figma.pdf)
