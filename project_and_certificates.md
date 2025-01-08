@@ -7,8 +7,8 @@
    [AI Vision](https://Emkub.github.io/project/AI.ipynb)
 
 3. **Tableau Dashboard และ Story**  
-   - [แดชบอร์ด](https://Emkub.github.io/project/มูลค่าการนำเข้าของวิสาหกิจ.pdf)  
-   - [เรื่องราว](https://Emkub.github.io/project/แนวโน้มการนำเข้า.pdf)
+   - [Dashboard](https://Emkub.github.io/project/มูลค่าการนำเข้าของวิสาหกิจ.pdf)  
+   - [Story](https://Emkub.github.io/project/แนวโน้มการนำเข้า.pdf)
 
 4. **(SA) ระบบจ่ายภาษี (Web Demo)**  
    [Draw.io](https://Emkub.github.io/project/SA1.drawio.pdf)
